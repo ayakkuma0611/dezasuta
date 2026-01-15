@@ -1,0 +1,139 @@
+@charset "utf-8";
+
+body {
+    background-color: #e8d9bf;
+}
+
+header {
+    position: relative;
+}
+
+.header_slider img {
+    width: 100%;
+}
+
+.header_wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 7% 0 3%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.header_logo {
+    width: 227px;
+}
+
+.pc_nav ul {
+    display: flex;
+    gap: 54px;
+}
+
+.pc_nav li {
+    color: #fff;
+    font-family:
+        "游ゴシック体",
+        YuGothic,
+        "游ゴシック",
+        "Yu Gothic",
+        "メイリオ",
+        "Hiragino Kaku Gothic ProN",
+        "Hiragino Sans",
+        sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    width: 105px;
+    text-align: center;
+}
+
+/* ABOUT US */
+.about_catch {
+    text-align: center;
+}
+
+.about_catch_main {
+    font-size: 82px;
+}
+
+.about_catch_sub1 {
+    font-size: 30px;
+}
+
+.about_catch_sub2 {
+    font-size: 23px;
+}
+
+.about .main_logo {
+    width: 272px;
+}
+
+.about_image img {
+    border-bottom-right-radius: 50px;
+}
+
+.about_text p {
+    max-width: 411px;
+    text-align: justify;
+}
+
+/* ↑↑文字ボックス通りに収めようと試みましたがうまくいかなかったので一旦このままにしてます↑ */
+
+
+/* MENU */
+.menu .main_logo {
+    width: 151px;
+    margin: 0 auto;
+}
+
+.menu_list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu_item img {
+    border-top-right-radius: 40px;
+}
+
+.menu_list h3 {
+    color: #d30202;
+    font-size: 38px;
+}
+
+/* GALLERY */
+.gallery .main_logo {
+    width: 245px;
+    margin: 0 auto;
+}
+
+.gallery_list {
+    display: flex;
+}
+
+/* EVENT */
+.event .main_logo {
+    width: 173px;
+    margin: 0 auto;
+
+}
+
+/* ACCESS */
+.access .main_logo {
+    width: 213px;
+    margin: 0 auto;
+}
+
+.access_map {
+    width: 100%;
+}
+
+.footer_logo {
+    width: 227px;
+}
+
+footer {
+    background-color: #fff;
+}
