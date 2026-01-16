@@ -118,12 +118,6 @@ header {
 
 /* MENU */
 
-.menu_inner {
-    margin-left: 460px;
-    margin-right: 460px;
-    /* なぜか右に寄ってしまう原因がわかりませんでした。。。 */
-}
-
 .menu .main_logo {
     width: 151px;
     margin: 0 auto;
