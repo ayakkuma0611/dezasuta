@@ -71,6 +71,8 @@ header {
 
 .about_catch_main {
     font-size: 82px;
+    line-height: 96px;
+    letter-spacing: 0.1em;
 }
 
 .about_catch_sub1 {
@@ -82,6 +84,8 @@ header {
 .about_catch_sub2 {
     font-size: 23px;
     margin-top: 50px;
+    line-height: 38px;
+    letter-spacing: 0.1em;
 }
 
 /* ABOUT US */
@@ -202,8 +206,8 @@ header {
 }
 
 .event_inner {
-    padding-top: 3%;
-    padding-bottom: 3%;
+    padding-top: 41px;
+    padding-bottom: 41px;
     border: 3.5px solid #4f260b;
     box-sizing: border-box;
     margin: 0 auto;
